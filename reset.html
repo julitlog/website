@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+  <title>iEnroll Reset Password</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="reset">
+  <div class="site-frame login-page">
+    <header class="login-top-banner">
+      <img class="header-logo" src="https://ienroll.sanbeda-alabang.edu.ph/SERP/Images/SBCA_Logo.png" alt="San Beda College Alabang logo" />
+      <h1>San Beda College Alabang</h1>
+    </header>
+
+    <nav class="login-nav">
+      <a href="index.html">LOGIN</a>
+    </nav>
+
+    <main class="reset-main-stage">
+      <section class="reset-card" aria-label="Reset password panel">
+        <div id="resetTopMessage" class="reset-top-message" hidden>
+          Your password reset was emailed to 20*******@sanbeda-alabang.edu.ph, li*******@gmail.com
+          Please follow the instructions in the email and proceed to the
+          <a href="index.html">login page.</a>
+        </div>
+
+        <p class="reset-title">Enter the user to reset the password.</p>
+
+        <form id="resetForm" class="reset-form" novalidate>
+          <div class="reset-grid">
+            <img class="reset-logo" src="https://ienroll.sanbeda-alabang.edu.ph/SERP/Images/SBCA_Logo.png" alt="School crest" />
+
+            <div class="reset-right">
+              <div class="reset-row">
+                <label for="resetUsername">USER ID</label>
+                <input id="resetUsername" name="username" type="text" autocomplete="username" />
+              </div>
+
+              <div class="captcha-box" aria-hidden="true">iSdM</div>
+              <p class="captcha-note">Note: Reload the page to regenerate image if it is unreadable.</p>
+
+              <label class="captcha-label" for="captchaInput">Enter the text shown above:</label>
+
+              <div class="reset-row action-row">
+                <input id="captchaInput" name="captcha" type="text" placeholder="Enter the text" />
+                <button type="submit" class="reset-btn">RESET PASSWORD AND EMAIL ME</button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <p id="resetInlineMessage" class="reset-inline-message" hidden>
+          Your password reset was emailed to 20*******@sanbeda-alabang.edu.ph, li*******@gmail.com
+        </p>
+        <p id="resetError" class="reset-error" aria-live="polite"></p>
+      </section>
+    </main>
+
+    <footer class="login-footer reset-footer">
+      &copy; 2022 Ledgea Systems, Inc. All rights reserved.
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
