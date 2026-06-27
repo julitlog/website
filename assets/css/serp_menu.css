@@ -1,0 +1,45 @@
+﻿#header_menu
+{
+	position:relative;
+	top:45px;
+	width:100%;
+	background-image:url('../images/menu.jpg');
+	background-repeat:repeat-x;
+	height:20px;
+	padding: 3px 0px 0px 0px;
+}
+.menu_item_inactive
+{
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:8.5pt;
+	padding: 0px 15px 0px 15px;
+	
+	color:#bbbbbb;
+	font-weight:bold;
+	cursor:hand;
+}
+.menu_item_inactive:hover
+{
+	
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:8.5pt;
+	padding: 0Px 15px 0px 15px;	
+	
+	color:#dddddd;
+	font-weight:bold;
+	cursor:hand;
+	
+}
+.menu_item_active
+{
+	text-decoration:none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:8.5pt;
+	padding: 0px 15px 0px 15px;
+	
+	color:#ffffff;
+	font-weight:bold;
+	cursor:hand;
+}

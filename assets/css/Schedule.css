@@ -1,0 +1,59 @@
+.ScheduleMenuText
+{
+color: #000000;
+background-color: #ffffff;
+font-weight: normal;
+font-size: 9pt;
+}
+
+.ScheduleHeaderText
+{
+color: #ffffff;
+background-color: #000000;
+font-weight: normal;
+font-size: 9pt;
+
+text-align: center;
+}
+
+.ScheduleSubHeaderText
+{
+color: #000000;
+background-color: #ffffff;
+font-weight: bold;
+font-size: 9pt;
+
+text-align: center;
+}
+
+.ScheduleDetailHeadText
+{
+color: #000000;
+background-color: #999999;
+font-weight: normal;
+font-size: 9pt;
+}
+
+.ScheduleDetailText
+{
+color: #000000;
+background-color: lightblue;
+font-weight: normal;
+font-size: 9pt;
+}
+
+.ScheduleDetailAvailableText
+{
+color: #000000;
+background-color: yellow;
+font-weight: normal;
+font-size: 9pt;
+}
+
+.ScheduleDetailNoneText
+{
+color: #000000;
+background-color: #eeeeee;
+font-weight: normal;
+font-size: 9pt;
+}
