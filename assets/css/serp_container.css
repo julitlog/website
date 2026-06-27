@@ -1,0 +1,32 @@
+﻿.container
+{
+	
+	background-repeat:repeat-x;
+	background-color: transparent;
+	text-indent: 5px;
+	font-size: 9pt;
+	color:#117224;
+}
+.container_title
+{
+	color:#117224;
+	font-weight:bold;
+	padding: 2px 0px 5px 0px;
+	
+}
+.container_bottom
+{
+}
+.login_textbox
+{
+	
+	border: solid 2px #117224;
+	color:#117224;
+	font-weight:bold;
+	width:150px;
+}
+.login_text
+{
+	
+	font-weight:bold;
+}

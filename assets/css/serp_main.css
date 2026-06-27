@@ -1,0 +1,28 @@
+.links
+{
+	text-decoration:none;
+	color:#000000;
+}
+.links:hover
+{
+	text-decoration:underline;
+	color:#000000;
+}
+.main_table
+{
+	width:750px;
+	width:100%;
+}
+.main_table_detail_content
+{
+	vertical-align:top;
+	height:200px;
+}
+.main_table_detail_content_loggedout
+{
+	vertical-align:center;
+	height:200px;
+	background-image:url('../images/logo_main_ver2.gif');
+	background-repeat:no-repeat;
+	background-position: center center;
+}

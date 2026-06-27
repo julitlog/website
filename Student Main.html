@@ -1,0 +1,554 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Student Main</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/Main.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/Schedule.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/FlowChart.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/serp_main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/serp_header.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./assets/css/serp_menu.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/serp_button.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/serp_container.css"
+    />
+    <script language="javascript" type="text/javascript">
+      function showWindow(sURL, sName, sSpecs) {
+        popupWindow = window.open(sURL, sName, sSpecs);
+        popupWindow.focus();
+      }
+    </script>
+  </head>
+  <body>
+    <form name="Main" method="post" action="#" id="Main">
+      <table class="main_table">
+        <tbody>
+          <tr>
+            <td>
+              <table id="oHeaderNav" border="0">
+                <tbody>
+                  <tr>
+                    <td>
+                      <table id="top_container" border="0">
+                        <tbody>
+                          <tr>
+                            <td id="logo"></td>
+                            <td>
+                              <table id="enrollment_student_info" border="0">
+                                <tbody>
+                                  <tr>
+                                    <td align="left" valign="middle">
+                                      <span
+                                        class="enrollment_student_info_cell_name"
+                                        >Ampon, Julia D. - 2025300339</span
+                                      >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td align="left" valign="middle">
+                                      <span
+                                        class="enrollment_student_info_cell_sy"
+                                        >SY2025-2026-2</span
+                                      >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td align="left" valign="middle">
+                                      <span
+                                        class="enrollment_student_info_cell_course"
+                                        >Bachelor of Arts in International
+                                        Studies major in Philippine Government
+                                        and External Relations</span
+                                      >
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                            <td class="enrollment_top_menu" valign="top">
+                              <a
+                                class="nav_button_inactive"
+                                href="changepassword2.html"
+                                target="_self"
+                                >User Setup</a
+                              ><a
+                                class="nav_button_inactive"
+                                href="Login.html"
+                                target="_self"
+                                >Logout</a
+                              >
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <table id="bottom_container" border="0">
+                        <tbody>
+                          <tr>
+                            <td>
+                              <table id="student_nav_container" border="0">
+                                <tbody>
+                                  <tr align="center">
+                                    <td
+                                      class="enrollment_nav_cell"
+                                      align="center"
+                                      valign="middle"
+                                    >
+                                      <a
+                                        class="nav_button_inactive"
+                                        href="Student Main.html"
+                                        target="_self"
+                                        >Main</a
+                                      >
+                                    </td>
+                                    <td
+                                      class="enrollment_nav_cell"
+                                      align="center"
+                                      valign="middle"
+                                    >
+                                      <a
+                                        class="nav_button_inactive"
+                                        href="grades.html"
+                                        target="_self"
+                                        >Grades</a
+                                      >
+                                    </td>
+                                    <td
+                                      class="enrollment_nav_cell"
+                                      align="center"
+                                      valign="middle"
+                                    >
+                                      <a
+                                        class="nav_button_inactive"
+                                        href="faculty.html"
+                                        target="_self"
+                                        >Faculty Evaluation and Surveys</a
+                                      >
+                                    </td>
+                                    <td
+                                      class="enrollment_nav_cell"
+                                      align="center"
+                                      valign="middle"
+                                      style="width: 100%"
+                                    ></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="main_table_detail_content">
+              <table
+                id="otbMain"
+                cellspacing="1"
+                cellpadding="1"
+                border="0"
+                width="100%"
+              >
+                <tbody>
+                  <tr>
+                    <td valign="top" width="25%">
+                      <table id="otbEnrollmentTable" width="100%">
+                        <tbody>
+                          <tr>
+                            <td
+                              id="otbEnrollmentTable_TabTitle_Enrolled_Subjects"
+                              class="HeaderTitle"
+                              align="center"
+                              colspan="6"
+                            >
+                              Enrolled Subjects
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              id="otbEnrollmentTable_ColTitle_Subject"
+                              class="HeaderText"
+                              align="center"
+                            >
+                              Subject
+                            </td>
+                            <td
+                              id="otbEnrollmentTable_ColTitle_Sec"
+                              class="HeaderText"
+                              align="center"
+                            >
+                              Sec
+                            </td>
+                            <td
+                              id="otbEnrollmentTable_ColTitle_Units"
+                              class="HeaderText"
+                              align="right"
+                            >
+                              Units
+                            </td>
+                            <td
+                              id="otbEnrollmentTable_ColTitle_Schedule"
+                              class="HeaderText"
+                              align="center"
+                            >
+                              Schedule
+                            </td>
+                            <td
+                              id="otbEnrollmentTable_ColTitle_Room"
+                              class="HeaderText"
+                              align="center"
+                            >
+                              Room
+                            </td>
+                            <td
+                              id="otbEnrollmentTable_ColTitle_Faculty"
+                              class="HeaderText"
+                              align="center"
+                            >
+                              Faculty
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">GEN-ET</td>
+                            <td class="DetailText" align="center">BAIS-2A</td>
+                            <td class="DetailText" align="right">3.00</td>
+                            <td class="DetailText" align="center">
+                              MW 10:30AM-12:00PM
+                            </td>
+                            <td class="DetailText" align="center">83H</td>
+                            <td class="DetailText" align="center">
+                              TINIO, CARLO ENRICO
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">GENE-ICC</td>
+                            <td class="DetailText" align="center">BSCPE-2A</td>
+                            <td class="DetailText" align="right">3.00</td>
+                            <td class="DetailText" align="center">
+                              MW 7:30AM-9:00AM
+                            </td>
+                            <td class="DetailText" align="center">84A</td>
+                            <td class="DetailText" align="center">
+                              RAMOS, JACQUELINE
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">ISH121</td>
+                            <td class="DetailText" align="center">BAIS-1A</td>
+                            <td class="DetailText" align="right">3.00</td>
+                            <td class="DetailText" align="center">
+                              MW 12:00PM-1:30PM
+                            </td>
+                            <td class="DetailText" align="center">83G</td>
+                            <td class="DetailText" align="center">
+                              LOPEZ, MA. CRISTINA
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">PE2</td>
+                            <td class="DetailText" align="center">PE2-M</td>
+                            <td class="DetailText" align="right">2.00</td>
+                            <td class="DetailText" align="center">
+                              FRI 3:30PM-5:30PM
+                            </td>
+                            <td class="DetailText" align="center">GYM</td>
+                            <td class="DetailText" align="center">
+                              DOMINGO, JOHN PAUL
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">PEP2</td>
+                            <td class="DetailText" align="center">BAIS-1A</td>
+                            <td class="DetailText" align="right">(1.00)</td>
+                            <td class="DetailText" align="center">
+                              MON 1:30PM-2:30PM
+                            </td>
+                            <td class="DetailText" align="center">83G</td>
+                            <td class="DetailText" align="center">
+                              Nieve, Lyza
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">PGM121</td>
+                            <td class="DetailText" align="center">
+                              BAIS PGER-1A
+                            </td>
+                            <td class="DetailText" align="right">3.00</td>
+                            <td class="DetailText" align="center">
+                              MW 3:00PM-4:30PM
+                            </td>
+                            <td class="DetailText" align="center">83G</td>
+                            <td class="DetailText" align="center">
+                              AFABLE, EMMANUEL GERARD
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">PGM225</td>
+                            <td class="DetailText" align="center">
+                              BAIS PGER-2A
+                            </td>
+                            <td class="DetailText" align="right">3.00</td>
+                            <td class="DetailText" align="center">
+                              THU 3:00PM-6:00PM
+                            </td>
+                            <td class="DetailText" align="center">AVR</td>
+                            <td class="DetailText" align="center">
+                              De Lima, John Aquilino Edmund
+                            </td>
+                          </tr>
+                          <tr>
+                            <td class="DetailText" align="center">THEO1-NTC</td>
+                            <td class="DetailText" align="center">BAIS-1A</td>
+                            <td class="DetailText" align="right">3.00</td>
+                            <td class="DetailText" align="center">
+                              TTH 9:00AM-10:30AM
+                            </td>
+                            <td class="DetailText" align="center">83H</td>
+                            <td class="DetailText" align="center">
+                              ESPIRITU, RALFH ANTHONY
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              class="FooterText"
+                              align="right"
+                              colspan="1"
+                            ></td>
+                            <td
+                              class="FooterText"
+                              align="right"
+                              colspan="1"
+                            ></td>
+                            <td class="FooterText" align="right" colspan="1">
+                              21.00
+                            </td>
+                            <td
+                              class="FooterText"
+                              align="left"
+                              colspan="1"
+                            ></td>
+                            <td
+                              class="FooterText"
+                              align="right"
+                              colspan="1"
+                            ></td>
+                            <td
+                              class="FooterText"
+                              align="right"
+                              colspan="1"
+                            ></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                    <td valign="top" width="65%">
+                      <table>
+                        <tbody>
+                          <tr>
+                            <td nowrap="">
+                              <div>
+                                <br /><b
+                                  >1st Semester, School Year 2026-2027
+                                  Enrollment is not yet open for BAIS-PGER.</b
+                                ><br />
+                              </div>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <table
+                        id="otbStudentNoteTable"
+                        border="0"
+                        style="width: 300px"
+                      >
+                        <tbody>
+                          <tr>
+                            <td
+                              align="center"
+                              class="HeaderTitle"
+                              colspan="3"
+                              rowspan="1"
+                            >
+                              Notes
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              nowrap="nowrap"
+                              align="center"
+                              class="DetailTextNegative"
+                              colspan="3"
+                              rowspan="1"
+                            >
+                              *** Outstanding Balance as of 2026-Jun-27 is
+                              41,605.46 ***
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              align="center"
+                              class="DetailText"
+                              colspan="3"
+                              rowspan="1"
+                            >
+                              <a
+                                title="View complete Statement of Account"
+                                href="updated_statement_of_account.pdf"
+                                target="_blank"
+                                rel="noopener"
+                                >View complete Statement of Account</a
+                              >
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              align="center"
+                              class="HeaderText"
+                              colspan="1"
+                              rowspan="1"
+                            >
+                              Dept
+                            </td>
+                            <td
+                              align="center"
+                              class="HeaderText"
+                              colspan="1"
+                              rowspan="1"
+                            >
+                              Title
+                            </td>
+                            <td
+                              align="center"
+                              class="HeaderText"
+                              colspan="1"
+                              rowspan="1"
+                            >
+                              Date
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              nowrap="nowrap"
+                              class="DetailText"
+                              colspan="1"
+                              rowspan="1"
+                            >
+                              Registrar
+                            </td>
+                            <td
+                              nowrap="nowrap"
+                              class="DetailText"
+                              colspan="1"
+                              rowspan="1"
+                            >
+                              <div>
+                                <span id="oTitleLabel_SR2020-013069"
+                                  >lacking Original TOR FEU &amp; NSTP Serial
+                                  Number</span
+                                >
+                              </div>
+                            </td>
+                            <td
+                              nowrap="nowrap"
+                              class="DetailText"
+                              colspan="1"
+                              rowspan="1"
+                            >
+                              2025-09-18
+                            </td>
+                          </tr>
+                          <tr>
+                            <td
+                              align="right"
+                              class="FooterText"
+                              colspan="3"
+                              rowspan="1"
+                            >
+                              1 note(s)
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+
+                      <b> </b>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div id="footer">
+                <a class="links" href="menu.html"
+                  >User: 2025300339 [2025300339@sanbeda-alabang.edu.ph]</a
+                ><br />
+                Â© 2022
+                <a class="links" href="http://www.ledgea.com/"
+                  >Ledgea Systems, Inc.</a
+                >
+                All rights reserved.
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <script type="text/javascript">
+      if (!window.File) {
+        alert(
+          "Your browser doesn't support the File API.  Last modified date will not be available.",
+        );
+      } else {
+        document.getElementById("fileupload").onchange = function () {
+          if (this.files.length > 0) {
+            if (typeof this.files[0].lastModifiedDate === "undefined") {
+              alert(
+                "Your browser doesn't support the File API.  Last modified date will not be available.",
+              );
+            } else {
+              var dtLMDate = this.files[0].lastModifiedDate;
+              var hiddenLMDate = document.getElementById(
+                "ohiddenLastModifiedDate",
+              );
+              hiddenLMDate.value =
+                dtLMDate.getFullYear() +
+                "-" +
+                (dtLMDate.getMonth() + 1) +
+                "-" +
+                dtLMDate.getDate() +
+                "  " +
+                dtLMDate.getHours() +
+                ":" +
+                dtLMDate.getMinutes() +
+                ":" +
+                dtLMDate.getSeconds() +
+                "." +
+                dtLMDate.getMilliseconds();
+            }
+          }
+        };
+      }
+    </script>
+  </body>
+</html>
